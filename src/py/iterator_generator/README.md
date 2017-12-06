@@ -7,5 +7,9 @@ File list
 -   frange.py - impl a range function with "yield".
 -   manuallytraverse.py - traverse with next() function manaully.
 -   proxyiter.py
+-   reversediter.py - impl a class, which supports "reversed()" function.
+-   generateslice.py - usage sample of itertools.islice()
+-   dropwhile.py - usage sample of itertools.dropwhile()
+-   permutationscombinations.py - sample of itertools.permutations() and itertools.combinations() 
 
 *NOTE:* "yield from" and "generator.send()" are Python3's feature.
