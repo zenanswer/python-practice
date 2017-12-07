@@ -6,6 +6,8 @@ from functools import wraps
 
 
 def timethisandmore(more="here is more info."):
+    print("timethisandmore, more:", type(more))
+
     def timethis(func):
         '''
         Decorator for execution time
@@ -20,7 +22,9 @@ def timethisandmore(more="here is more info."):
 
         # for timethis
         return wrapper
+
     print('timethisandmore')
+
     # for timethisandmore
     return timethis
 
@@ -34,11 +38,31 @@ def countdown(n: int):  # countdown.__annotations__
         n -= 1
 
 
+@timethisandmore
+def countdown2(n: int):  # countdown.__annotations__
+    '''
+    A count down2 function
+    '''
+    while n > 0:
+        n -= 1
+
+
+@timethisandmore()
+def countdown3(n: int):  # countdown.__annotations__
+    '''
+    A count down3 function
+    '''
+    while n > 0:
+        n -= 1
+
+
 countdown(100000)
 # countdown 0.0066568851470947266
 
-countdown(1000000)
+countdown2(1000000)
 # countdown 0.0733339786529541
+
+countdown3(1000000)
 
 print(countdown.__name__)
 # countdown
