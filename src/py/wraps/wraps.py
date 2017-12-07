@@ -28,7 +28,7 @@ def countdown(n: int):  # countdown.__annotations__
     '''
     while n > 0:
         n -= 1
-
+# e.q. countdown = timethis(countdown)
 
 countdown(100000)
 # countdown 0.0066568851470947266

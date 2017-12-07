@@ -20,6 +20,7 @@ def timethisandmore(more="here is more info."):
 
         # for timethis
         return wrapper
+    print('timethisandmore')
     # for timethisandmore
     return timethis
 
