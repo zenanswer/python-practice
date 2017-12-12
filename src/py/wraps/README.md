@@ -6,6 +6,7 @@ File list
 -   wrapswithparms.py - give more parms for a decorator
 -   partialtest.py
 -   wrapsattachattr.py
+-   typeassert.py - check the input type through decorator
 
 
 
