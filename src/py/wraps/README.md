@@ -7,6 +7,8 @@ File list
 -   partialtest.py
 -   wrapsattachattr.py
 -   typeassert.py - check the input type through decorator
+-   decoratoronclass.py - decorator on a class (intercept class.\_\_getattribute\_\_)
+-   classdecoratoronfunc.py - a class decorator on a function
 
 
 
