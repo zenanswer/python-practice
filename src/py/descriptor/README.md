@@ -7,7 +7,7 @@ File list
 -   simpledescriptor.py - a simple descriptor for type checking
 -   propertydescriptor.py - usage of data descriptor for type checking on a class
 -   cachedproperty.py - usage of non-data descriptor on a class method
-
+-   typedproperty.py - usage \@property to impl "propertydescriptor.py"
 
 
 Data Descriptor (资料描述)

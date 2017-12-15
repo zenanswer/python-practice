@@ -32,6 +32,14 @@ class Person:
 
 if __name__ == '__main__':
     person = Person('Bob')
+    print('-'*10)
+    # Person Class has a property object and named "first_name"
+    # But, person instance only has a string object "_first_name"
+    # So, when you using person.first_name,
+    # will invoke the setter or getter of "Person.first_name property"
+    print('vars(Person):\n', vars(Person))
+    print('vars(p):\n', vars(person))
+    print('-'*10)
     print('The first name is', person.first_name)
     person.first_name = 'Rob'
     print('The first name is', person.first_name)
