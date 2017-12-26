@@ -10,6 +10,7 @@ File list
 -   reversediter.py - impl a class, which supports "reversed()" function.
 -   generateslice.py - usage sample of itertools.islice()
 -   dropwhile.py - usage sample of itertools.dropwhile()
--   permutationscombinations.py - sample of itertools.permutations() and itertools.combinations() 
+-   permutationscombinations.py - sample of itertools.permutations() and itertools.combinations()
+-   enumeratetest.py - usage of enumerate for a list
 
 *NOTE:* "yield from" and "generator.send()" are Python3's feature.
