@@ -12,5 +12,6 @@ File list
 -   dropwhile.py - usage sample of itertools.dropwhile()
 -   permutationscombinations.py - sample of itertools.permutations() and itertools.combinations()
 -   enumeratetest.py - usage of enumerate for a list
+-   ziptest.py - usage of zip
 
 *NOTE:* "yield from" and "generator.send()" are Python3's feature.
