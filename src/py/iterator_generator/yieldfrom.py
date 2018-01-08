@@ -15,8 +15,10 @@ def yieldfromtworange(x):
 def sub_generator():
     tally = 0
     while 1:
+        # wait for the input from generator.send() or next(generator)
         next_value = yield
         if next_value is None:
+            # next(generator)
             # if got None, then finish this sub_generator,
             # and return the tally count
             return tally
