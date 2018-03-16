@@ -1,0 +1,22 @@
+localhost:magicmethods xcwang$ python3 strrepr.py
+4495750424 __init__
+X is 4495750424
+4495750424 __str__
+__str__ of X is 4
+4495750424 __repr__
+__repr__ of X is Length(4, 'm')
+4495750424 __str__
+Type of X <class '__main__.Length'> (ID 4495750424) and Length 4
+4495750424 __repr__
+4495750536 __init__
+Y is 4495750536
+4495750536 __str__
+Type of Y <class '__main__.Length'> (ID 4495750536) and Length 4
+4495750648 __init__
+4495750760 __init__
+4495750648 __add__ 4495750760
+4495750816 __init__
+Z is 4495750816
+4495750816 __str__
+Type of Z <class '__main__.Length'> (ID 4495750816) and Length 5.1148
+localhost:magicmethods xcwang$
