@@ -1,0 +1,17 @@
+localhost:magicmethods xcwang$ python3 iternext.py
+Method: <function FunctionalList.__init__ at 0x108800e18>
+for test:
+Method: <function FunctionalList.__iter__ at 0x108810400>
+1
+2
+3
+4
+5
+next test:
+Method: <function FunctionalList.__iter__ at 0x108810400>
+1
+2
+3
+4
+5
+localhost:magicmethods xcwang$ 
