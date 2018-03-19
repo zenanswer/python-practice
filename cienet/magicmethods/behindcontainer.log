@@ -1,0 +1,9 @@
+localhost:magicmethods xcwang$ python3 behindcontainer.py
+Instance: <function FunctionalList.__init__ at 0x106e67a60>
+Instance: <function FunctionalList.__len__ at 0x106e67c80>
+Length:3
+Instance: <function FunctionalList.__reversed__ at 0x106e84268>
+Instance: <function FunctionalList.__init__ at 0x106e67a60>
+Instance: <function FunctionalList.__str__ at 0x106e84730>
+Reversed:3.2.1
+localhost:magicmethods xcwang$
