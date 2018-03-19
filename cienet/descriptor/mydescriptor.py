@@ -31,17 +31,25 @@ if __name__ == "__main__":
             print('Init x: %d, y: %d' % (x, y))
             self.x = x
             self.y = y
+            self.zz = 0
 
     mc = MyClass(30, 40)
     print('X test:')
+    print(mc.__dict__)
     print(mc.x)
     mc.x = 11
+    print(mc.__dict__)
     print(mc.x)
     print('Y test:')
+    print(mc.__dict__)
     print(mc.y)
     mc.y = 21
+    print(mc.__dict__)
     print(mc.y)
-    print('X test:')
-    print(mc.z)
-    mc.z = 100
-    print(mc.z)
+    print('Z test:')
+    print(MyClass.__dict__)
+    print(MyClass.z)
+    MyClass.z = 100
+    print(MyClass.__dict__)
+    print(MyClass.z)
+    print(mc.__dict__)
