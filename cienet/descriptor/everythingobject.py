@@ -18,11 +18,13 @@ if __name__ == '__main__':
     show_info('type(MyClass)')
     show_info('type(MyClass).__dict__')
     mc = MyClass()
+    mc2 = mc
     show_info('MyClass')
     show_info('MyClass.__dict__')
     show_info('type(mc)')
     show_info('type(mc).__dict__')
     show_info('mc')
     show_info('mc.__dict__')
+    show_info('mc2')
     show_info('show_info')
     show_info('type(__name__)')
