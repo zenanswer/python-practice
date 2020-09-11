@@ -12,11 +12,11 @@ class MyDescriptor():
         self.name = name
 
     def __get__(self, obj, objtype):
-        print('Retrieving: %s, obj %s, objtype %s' % (self.name, obj, objtype))
+        print('Retrieving[%s]: %s, obj %s, objtype %s' % (self, self.name, obj, objtype))
         return self.val
 
     def __set__(self, obj, val):
-        print('Updating: %s, obj: %s, val: %s' % (self.name, obj, str(val)))
+        print('Updating[%s]: %s, obj: %s, val: %s' % (self, self.name, obj, str(val)))
         self.val = val
 
 
@@ -34,6 +34,7 @@ if __name__ == "__main__":
             self.zz = 0
 
     mc = MyClass(30, 40)
+    mc2 = MyClass(40, 30)
     print('X test:')
     print(mc.__dict__)
     print(mc.x)
@@ -49,6 +50,7 @@ if __name__ == "__main__":
     print('Z test:')
     print(MyClass.__dict__)
     print(MyClass.z)
+    print(mc.z)
     MyClass.z = 100
     print(MyClass.__dict__)
     print(MyClass.z)
